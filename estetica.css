@@ -1,0 +1,709 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+    background-color: #282828;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Forum", serif;
+    font-weight: lighter;
+    font-style: normal;
+    overflow-x: hidden;
+
+}
+
+header {
+
+    position: relative;
+
+}
+
+.menu {
+    
+    position: absolute;
+    top:  5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 220px;
+    color: white;
+    z-index: 1;
+    box-sizing: border-box; /* Garante que padding não aumente a largura total */
+
+}
+
+.menu ul {
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    overflow: hidden; /* Evita que qualquer item ultrapasse a largura */
+
+}
+
+.menu li a {
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+
+}
+
+.left-menu, .right-menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.left-menu {
+ 
+    flex: 0 1 auto; /* Permite que ocupe o espaço necessário, sem forçar o layout */
+    gap: 50px;
+
+}
+
+/* Estilo básico dos links */
+.left-menu a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 5px; /* Espaço para a linha embaixo */
+}
+
+/* Linha embaixo do link */
+.left-menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Centraliza a linha */
+    width: 50%; /* Defina a largura desejada para a linha */
+    height: 2px;
+    background-color: white;
+    transform: translateX(-50%); /* Ajusta a linha para que ela fique centralizada */
+}
+
+
+.logo-center {
+    flex: 1 1 auto; /* Ocupa o espaço central restante */
+    display: flex;
+    justify-content: center;
+}
+
+.right-menu {
+    flex: 0 1 auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 220px;
+}
+
+.btn-contato {
+    padding: 8px 16px;
+    background-color: #EACF35;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    border: 2px solid #EACF35;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-contato:hover {
+    background-color: transparent;
+    color: #EACF35;
+}
+
+
+#img-inicial {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+
+.palavras-inicio {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.palavras-inicio span {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    font-size: 160px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    opacity: 0;
+    animation: wordAnimation 10s infinite;
+}
+
+/* Animação para cada palavra */
+.palavras-inicio span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.palavras-inicio span:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.palavras-inicio span:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.palavras-inicio span:nth-child(4) {
+    animation-delay: 6s;
+}
+
+.palavras-inicio span:nth-child(5) {
+    animation-delay: 8s;
+}
+
+@keyframes wordAnimation {
+    0%, 15% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    20%, 100% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+#btn-inicial {
+
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 380px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6.5px;
+    font-size: 28px;
+    background-color: #EACF35;
+    border-radius: 320px;
+    border: 0px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 40px; /* Espaçamento entre texto e imagem */
+    margin-top: 7%;
+
+}
+  
+.text-section {
+
+    width: 32%;
+    text-align: right; /* Alinha o título e o texto à direita */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+  
+.image-section {
+
+    width: 35%;
+
+}
+  
+.image-section img {
+
+    max-width: 100%;
+    height: auto;
+
+}
+  
+
+.servicos {
+
+    margin-top: 3%;
+
+}
+
+#conheca {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    margin: 12% auto 0 auto;
+    max-width: 80%;
+
+}
+
+/* Contêiner principal com flexbox */
+.item-list {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre os itens */
+    flex-wrap: wrap; /* Permite que os itens desçam para a linha seguinte */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+    max-width: 1500px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza a lista na página */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Cada item do menu */
+.menu-item {
+    width: 680px; /* Largura fixa para cada item */
+    min-height: 100px; /* Altura mínima para cada item */
+    text-align: left; /* Alinha o texto à esquerda dentro do item */
+}
+
+/* Estilo do título */
+.titulo {
+    margin-bottom: 15px; /* Espaço entre título e linha */
+    font-size: 32px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Estilo da linha */
+.linha {
+    width: 100%; /* A linha ocupa toda a largura do item */
+    height: 2px;
+    background-color: rgb(17, 17, 17);
+    margin-top: 5px; /* Espaçamento entre o título e a linha */
+
+}
+
+.frase-impacto {
+
+    margin-top: 15px; /* Espaço entre a linha e o texto */
+    font-size: 20px;
+    color: #EACF35;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+/* Estilo da descrição */
+.descricao {
+
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+
+#objetivo {
+
+    max-width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    margin: 12% auto 0 auto;
+
+}
+
+.secoes {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.missao, .visao {
+
+    width: 676px;
+
+}
+
+.missao h2, .visao h2,
+.valores h2 {
+
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+.missao p, .visao p,
+.valores p {
+
+    font-weight: 400;
+    font-size: 28px;
+
+}
+
+.missao-visao {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.valores {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.form-container {
+
+    padding: 20px;
+    max-width: 100%;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+  
+.form-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.texto {
+    flex: 1;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    font-size: 90px;
+    margin-left: 5%;
+}
+  
+.formulario {
+    flex: 1;
+}
+  
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+  
+input, textarea {
+    width: 541px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
+
+input::placeholder,
+textarea::placeholder {
+    text-align: left;
+}
+  
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+  
+form button {
+    background-color: #EACF35;
+    color: #282828;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+  
+  form button:hover {
+    background-color: #bda72b;
+}
+
+footer {
+
+    background-color: #222222;
+    width: 100%;
+    height: 266px;
+
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 24px;
+}
+  
+.logo img {
+    height: 266px;
+}
+  
+.copyright {
+    text-align: center;
+    flex: 1;
+}
+  
+.social-icons a {
+
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+  
+.social-icons img {
+    width: 56px;
+    height: auto;
+}
+  
+.social-icons a:hover img {
+    opacity: 0.7;
+}
+
+.social-icons a:focus {
+    outline: none;
+  }
+
+
+/* Media query para dispositivos móveis (largura máxima de 768px) */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Garante que o menu fique acima de outros elementos */
+    }
+
+    .left-menu, .right-menu {
+        display: none; /* Esconde os itens do menu inicialmente */
+    }
+
+    .logo-center {
+
+        flex: 1;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /* Logo à esquerda do menu */
+    .logo-center #logo {
+        width: 280px;
+    }
+
+    /* Botão inicial mais abaixo para não cobrir as palavras iniciais */
+    #btn-inicial {
+        position: absolute;
+        top: 80%; /* Ajuste o valor conforme necessário */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: auto;
+        padding: 10px 20px;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    /* Centraliza palavras iniciais sem vazar da tela */
+    .palavras-inicio {
+        margin-left: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .palavras-inicio span {
+        font-size: 60px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 5%;
+        gap: 2px;
+    }
+
+    .text-section, .image-section {
+        
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #conheca {
+        font-size: 50px;
+        margin: 10% auto 0 auto;
+    }
+
+    .item-list {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu-item {
+        width: 80%;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .frase-impacto, .descricao {
+        font-size: 16px;
+    }
+
+    #objetivo {
+
+        font-size: 50px;
+
+    }
+
+    .missao-visao {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .missao, .visao {
+        width: 100%;
+        font-size: 32px;
+
+    }
+
+    .valores {
+
+        font-size: 32px;
+
+    }
+
+    .form-layout {
+        flex-direction: column;
+    }
+
+    .texto {
+        font-size: 60px;
+        margin: 20px auto 20px auto;
+        display: flex;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 95%;
+    }
+
+    .formulario h2 {
+        text-align: center;     /* Centraliza o texto dentro do h2 */
+        font-size: 36px;        /* Tamanho da fonte */
+        width: 100%;            /* Garante que o h2 ocupe toda a largura */
+        margin: 0 auto;         /* Centraliza o h2 no seu contêiner */
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    footer {
+
+        margin-top: 15%;
+        width: 100%;           /* Garante que ocupe 100% da largura */
+        height: auto;          /* Ajusta a altura automaticamente */
+        background-color: #282828; /* Cor de fundo */
+        padding: 0;             /* Remove qualquer padding interno */
+        margin: 0;              /* Remove qualquer margem externa */
+        box-sizing: border-box; /* Inclui padding e borda nas dimensões */
+    }
+
+    footer * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Garante que o padding e a borda sejam calculados corretamente */
+    }
+
+    .footer-content {
+
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .copyright {
+
+        font-size: 16px;
+
+    }
+
+    .logo img {
+        height: 200px;
+    }
+
+    .social-icons img {
+        width: 40px;
+    }
+
+}
