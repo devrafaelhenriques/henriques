@@ -3,8 +3,8 @@
   --bg: #0a0a0d;
   --panel: #14141b;
   --panel-light: #1b1b24;
-  --accent: #d6b25e;
-  --accent-bright: #f2d06a;
+  --accent: #e56c2f;
+  --accent-bright: #f0843f;
   --text: #f5f5f7;
   --muted: #b2b2c3;
   --stroke: rgba(255, 255, 255, 0.08);
@@ -69,15 +69,8 @@ img {
 .brand-logo {
   width: 54px;
   height: 54px;
-  background-color: #ffffff;
-  mask-image: url("./img/logo.png");
-  mask-repeat: no-repeat;
-  mask-size: contain;
-  mask-position: center;
-  -webkit-mask-image: url("./img/logo.png");
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  -webkit-mask-position: center;
+  object-fit: contain;
+  mix-blend-mode: screen;
 }
 
 .footer-logo {
