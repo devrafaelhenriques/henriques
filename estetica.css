@@ -66,9 +66,23 @@ img {
   letter-spacing: 0.04em;
 }
 
-.brand img {
-  width: 48px;
-  height: 48px;
+.brand-logo {
+  width: 54px;
+  height: 54px;
+  background-color: #ffffff;
+  mask-image: url("./img/logo.png");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+  -webkit-mask-image: url("./img/logo.png");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+}
+
+.footer-logo {
+  width: 70px;
+  height: 70px;
 }
 
 .nav-links {
@@ -406,9 +420,6 @@ img {
   gap: 12px;
 }
 
-.footer-brand img {
-  width: 64px;
-}
 
 .footer-text p {
   margin-bottom: 8px;
