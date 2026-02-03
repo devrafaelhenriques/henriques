@@ -67,15 +67,15 @@ img {
 }
 
 .brand-logo {
-  width: 54px;
-  height: 54px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   mix-blend-mode: screen;
 }
 
 .footer-logo {
-  width: 70px;
-  height: 70px;
+  width: 140px;
+  height: 140px;
 }
 
 .nav-links {
