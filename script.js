@@ -59,7 +59,7 @@ const portfolioItems = [
     description: "Registro fotográfico e audiovisual de Chá de Fralda com narrativa leve e afetiva.",
     details: "Cobertura completa com atenção aos momentos-chave, interação entre convidados e entrega otimizada para redes sociais.",
     meta: "Cliente: Evento Particular • Entrega: todas as fotos tratadas em alta resolução",
-    mediaUrl: "./img/portfolio/GH-01.jpg",
+    mediaUrl: "./img/portfolio/GH-005.jpg",
     projectUrl: "https://www.behance.net/gallery/243140043/Fotografia-e-Edicao-Cha-de-Fralda-Maria-Eduarda"
   },
   {
