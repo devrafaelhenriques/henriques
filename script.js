@@ -5,12 +5,12 @@ const portfolioItems = [
     categoryLabel: "Ensaios Fotográficos",
     type: "foto",
     typeLabel: "Fotografia",
-    title: "Editorial Premium para Marca de Moda",
-    description: "Direção de arte e fotografia para reposicionamento de coleção com linguagem sofisticada.",
-    details: "Produção completa com moodboard, direção criativa e pós-produção. Resultado: aumento de percepção premium e maior engajamento nos lançamentos.",
-    meta: "Cliente: Marca Aurora • Entrega: 48 fotos tratadas",
-    mediaUrl: "./img/fundo2.png",
-    projectUrl: "https://www.instagram.com/henriquesgrupo"
+    title: "Janta de Formatura",
+    description: "Cobertura fotográfica de evento com foco em emoção, detalhes e registros espontâneos.",
+    details: "Captação completa do evento com olhar documental e edição profissional, garantindo memórias autênticas e imagens prontas para compartilhamento.",
+    meta: "Cliente: Evento Particular • Entrega: galeria completa em alta resolução",
+    mediaUrl: "./img/portfolio/GH-002.jpg",
+    projectUrl: "https://www.behance.net/gallery/241582827/Fotografia-de-Janta-de-Formatura-Terceirao-261225"
   },
   {
     id: 2,
@@ -18,24 +18,24 @@ const portfolioItems = [
     categoryLabel: "Vídeos",
     type: "video",
     typeLabel: "Audiovisual",
-    title: "Vídeo Manifesto de Posicionamento",
-    description: "Filme institucional com foco emocional e roteiro para conversão.",
-    details: "Captação em múltiplas locações, motion graphics e trilha licenciada para reforçar autoridade da marca.",
-    meta: "Cliente: Grupo Atria • Entrega: filme 90s + recortes",
-    projectUrl: "https://www.youtube.com/"
+    title: "Vídeo Institucional Avatim",
+    description: "Filme institucional com foco em conversão.",
+    details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
+    meta: "Cliente: Avatim Araranguá • Entrega: vídeo institucional",
+    projectUrl: "https://www.behance.net/gallery/243147295/Video-Institucional-para-a-Avatim-AraranguaSC"
   },
   {
     id: 3,
     category: "sites",
     categoryLabel: "Sites & Sistemas",
-    type: "site",
-    typeLabel: "Site",
-    title: "Plataforma Comercial de Alto Desempenho",
-    description: "Website premium com estrutura orientada a leads e performance.",
-    details: "Arquitetura de informação, copy estratégica e otimização técnica para velocidade e SEO local.",
-    meta: "Cliente: Prime Consultoria • Entrega: site + dashboard",
-    mediaUrl: "./img/logo2.png",
-    projectUrl: "https://example.com"
+    type: "sistema",
+    typeLabel: "Sistema",
+    title: "Sistema de Gestão de Estoque com Financeiro",
+    description: "Sistema para gerir o estoque de clinicas com financeiro incluso, gerando uma velocidade muito maior nos processos.",
+    details: "Arquitetura de informação, programação web, web design.",
+    meta: "Cliente: -- • Entrega: site + dashboard",
+    mediaUrl: "./img/logo-n2.png",
+    projectUrl: "https://grupohenriques.com.br"
   },
   {
     id: 4,
@@ -54,10 +54,12 @@ const portfolioItems = [
     categoryLabel: "Ensaios Fotográficos",
     type: "foto",
     typeLabel: "Fotografia",
-    title: "Retratos Corporativos para Liderança",
-    description: "Sessão fotográfica executiva para fortalecer autoridade pessoal e institucional.",
-    details: "Captação em estúdio e ambiente corporativo com direção de poses e tratamento refinado.",
-    meta: "Cliente: Atlas Partners • Entrega: 30 retratos"
+    title: "Chá de Fralda",
+    description: "Registro fotográfico e audiovisual de Chá de Fralda com narrativa leve e afetiva.",
+    details: "Cobertura completa com atenção aos momentos-chave, interação entre convidados e entrega otimizada para redes sociais.",
+    meta: "Cliente: Evento Particular • Entrega: todas as fotos tratadas em alta resolução",
+    mediaUrl: "./img/portfolio/GH-01.jpg",
+    projectUrl: "https://www.behance.net/gallery/243140043/Fotografia-e-Edicao-Cha-de-Fralda-Maria-Eduarda"
   },
   {
     id: 6,
