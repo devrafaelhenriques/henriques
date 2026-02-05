@@ -5,12 +5,12 @@ const portfolioItems = [
     categoryLabel: "Ensaios Fotográficos",
     type: "foto",
     typeLabel: "Fotografia",
-    title: "Editorial Premium para Marca de Moda",
-    description: "Direção de arte e fotografia para reposicionamento de coleção com linguagem sofisticada.",
-    details: "Produção completa com moodboard, direção criativa e pós-produção. Resultado: aumento de percepção premium e maior engajamento nos lançamentos.",
-    meta: "Cliente: Marca Aurora • Entrega: 48 fotos tratadas",
-    mediaUrl: "./img/fundo2.png",
-    projectUrl: "https://www.instagram.com/henriquesgrupo"
+    title: "Janta de Formatura",
+    description: "Cobertura fotográfica de evento com foco em emoção, detalhes e registros espontâneos.",
+    details: "Captação completa do evento com olhar documental e edição profissional, garantindo memórias autênticas e imagens prontas para compartilhamento.",
+    meta: "Cliente: Evento Particular • Entrega: galeria completa em alta resolução",
+    mediaUrl: "./img/portfolio/GH-002.jpg",
+    projectUrl: "https://www.behance.net/gallery/241582827/Fotografia-de-Janta-de-Formatura-Terceirao-261225"
   },
   {
     id: 2,
@@ -18,24 +18,24 @@ const portfolioItems = [
     categoryLabel: "Vídeos",
     type: "video",
     typeLabel: "Audiovisual",
-    title: "Vídeo Manifesto de Posicionamento",
-    description: "Filme institucional com foco emocional e roteiro para conversão.",
-    details: "Captação em múltiplas locações, motion graphics e trilha licenciada para reforçar autoridade da marca.",
-    meta: "Cliente: Grupo Atria • Entrega: filme 90s + recortes",
-    projectUrl: "https://www.youtube.com/"
+    title: "Vídeo Institucional Avatim",
+    description: "Filme institucional com foco em conversão.",
+    details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
+    meta: "Cliente: Avatim Araranguá • Entrega: vídeo institucional",
+    projectUrl: "https://www.behance.net/gallery/243147295/Video-Institucional-para-a-Avatim-AraranguaSC"
   },
   {
     id: 3,
     category: "sites",
     categoryLabel: "Sites & Sistemas",
-    type: "site",
-    typeLabel: "Site",
-    title: "Plataforma Comercial de Alto Desempenho",
-    description: "Website premium com estrutura orientada a leads e performance.",
-    details: "Arquitetura de informação, copy estratégica e otimização técnica para velocidade e SEO local.",
-    meta: "Cliente: Prime Consultoria • Entrega: site + dashboard",
-    mediaUrl: "./img/logo2.png",
-    projectUrl: "https://example.com"
+    type: "sistema",
+    typeLabel: "Sistema",
+    title: "Sistema de Gestão de Estoque com Financeiro",
+    description: "Sistema para gerir o estoque de clinicas com financeiro incluso, gerando uma velocidade muito maior nos processos.",
+    details: "Arquitetura de informação, programação web, web design.",
+    meta: "Cliente: -- • Entrega: site + dashboard",
+    mediaUrl: "./img/portfolio/GH-003.png",
+    projectUrl: "https://www.behance.net/gallery/243595071/Sistema-de-Gestao-de-Estoque-com-Financeiro?platform=direct"
   },
   {
     id: 4,
@@ -43,10 +43,11 @@ const portfolioItems = [
     categoryLabel: "Marcas & Campanhas",
     type: "foto",
     typeLabel: "Campanha",
-    title: "Lançamento de Marca com Campanha 360º",
-    description: "Identidade visual, peças digitais e plano de conteúdo coordenado.",
-    details: "Estratégia de entrada no mercado com criativos para awareness e performance em mídia paga.",
-    meta: "Cliente: Nexo Tech • Entrega: branding + campanha"
+    title: "Folder Institucional - ISO 9001 – Clínica de Olhos São José",
+    description: "Criação de folder institucional com foco em clareza, credibilidade e posicionamento profissional na área da saúde.",
+    details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da clínica.",
+    meta: "Cliente: Clínica de Olhos São José • Entrega: material pronto para impressão e uso digital",
+    projectUrl: "https://www.behance.net/gallery/239181355/Folder-Semana-da-Qualidade-Clinica-de-Olhos-Sao-Jos"
   },
   {
     id: 5,
@@ -54,10 +55,11 @@ const portfolioItems = [
     categoryLabel: "Ensaios Fotográficos",
     type: "foto",
     typeLabel: "Fotografia",
-    title: "Retratos Corporativos para Liderança",
-    description: "Sessão fotográfica executiva para fortalecer autoridade pessoal e institucional.",
-    details: "Captação em estúdio e ambiente corporativo com direção de poses e tratamento refinado.",
-    meta: "Cliente: Atlas Partners • Entrega: 30 retratos"
+    title: "Chá de Fralda",
+    description: "Registro fotográfico e audiovisual de Chá de Fralda com narrativa leve e afetiva.",
+    details: "Cobertura completa com atenção aos momentos-chave, interação entre convidados e entrega otimizada para redes sociais.",
+    meta: "Cliente: Evento Particular • Entrega: todas as fotos tratadas em alta resolução",
+    projectUrl: "https://www.behance.net/gallery/243140043/Fotografia-e-Edicao-Cha-de-Fralda-Maria-Eduarda"
   },
   {
     id: 6,
@@ -65,10 +67,37 @@ const portfolioItems = [
     categoryLabel: "Vídeos",
     type: "video",
     typeLabel: "Audiovisual",
-    title: "Série de Reels para Conversão",
-    description: "Pacote audiovisual com foco em retenção, prova social e chamadas para ação.",
-    details: "Roteiros curtos, filmagem vertical e edição otimizada para plataformas sociais.",
-    meta: "Cliente: Clínica Vitta • Entrega: 20 vídeos"
+    title: "Vídeo Institucional Nyldora",
+    description: "Filme institucional com foco em conversão.",
+    details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
+    meta: "Cliente: Nyldora Beauty • Entrega: vídeo institucional",
+    projectUrl: "https://www.behance.net/gallery/243163421/Video-Institucional-Nyldora-Beauty-AraranguaSC"
+  },
+  {
+    id: 7,
+    category: "marcas",
+    categoryLabel: "Marcas & Campanhas",
+    type: "foto",
+    typeLabel: "Campanha",
+    title: "Outdoor – Campanha de Natal",
+    description: "Criação de outdoor para campanha de Natal com foco em impacto visual, mensagem direta e alto poder de atenção.",
+    details: "Desenvolvimento do conceito criativo e do design do material, pensado para leitura rápida, forte presença visual e conexão emocional com o público.",
+    meta: "Cliente: Clínica de Olhos São José • Veiculação: campanha sazonal de Natal",
+    mediaUrl: "./img/portfolio/GH-006.png",
+    projectUrl: "https://www.behance.net/gallery/241584079/Outdoor-Campanha-de-Natal-Clinica-de-Olhos-Sao-Jos"
+  },
+  {
+    id: 8,
+    category: "ensaios",
+    categoryLabel: "Ensaios Fotográficos",
+    type: "foto",
+    typeLabel: "Fotografia",
+    title: "Fotos - JISC 2025",
+    description: "Cobertura fotográfica de evento acadêmico com foco em registros institucionais, interação e momentos-chave.",
+    details: "Produção fotográfica completa durante o evento, valorizando palestras, networking e a experiência do público, com edição profissional para uso institucional e divulgação.",
+    meta: "Evento: JISC 2025 • Entrega: galeria completa em alta resolução",
+    mediaUrl: "./img/portfolio/GH-008.png",
+    projectUrl: "https://www.behance.net/gallery/239219153/Fotografia-e-Edicao-JISC-2025"
   }
 ];
 
