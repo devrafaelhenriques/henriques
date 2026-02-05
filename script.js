@@ -34,7 +34,7 @@ const portfolioItems = [
     description: "Sistema para gerir o estoque de clinicas com financeiro incluso, gerando uma velocidade muito maior nos processos.",
     details: "Arquitetura de informação, programação web, web design.",
     meta: "Cliente: -- • Entrega: site + dashboard",
-    mediaUrl: "./img/portfolio/GH-003.jpg",
+    mediaUrl: "./img/portfolio/GH-003.png",
     projectUrl: "https://www.behance.net/gallery/243595071/Sistema-de-Gestao-de-Estoque-com-Financeiro?platform=direct"
   },
   {
@@ -47,7 +47,6 @@ const portfolioItems = [
     description: "Criação de folder institucional com foco em clareza, credibilidade e posicionamento profissional na área da saúde.",
     details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da clínica.",
     meta: "Cliente: Clínica de Olhos São José • Entrega: material pronto para impressão e uso digital",
-    mediaUrl: "./img/portfolio/GH-004.png",
     projectUrl: "https://www.behance.net/gallery/239181355/Folder-Semana-da-Qualidade-Clinica-de-Olhos-Sao-Jos"
   },
   {
