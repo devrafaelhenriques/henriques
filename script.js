@@ -237,5 +237,65 @@ const initReveal = () => {
   revealElements.forEach((element) => observer.observe(element));
 };
 
+
+
+const reviewsTrack = document.getElementById("google-reviews-track");
+const reviewsPrev = document.getElementById("reviews-prev");
+const reviewsNext = document.getElementById("reviews-next");
+
+const renderStars = (count = 5) => "★".repeat(Math.max(0, Math.min(5, Number(count || 0))));
+
+const createReviewCard = (review) => {
+  const card = document.createElement("article");
+  card.className = "google-review-card";
+  card.setAttribute("data-reveal", "");
+
+  const link = review.url
+    ? `<a class="google-review-card__link" href="${review.url}" target="_blank" rel="noreferrer">Ver no Google</a>`
+    : "";
+
+  card.innerHTML = `
+    <h3 class="google-review-card__name">${review.nome || "Cliente"}</h3>
+    <p class="google-review-card__stars" aria-label="${review.estrelas || 5} de 5 estrelas">${renderStars(review.estrelas)}</p>
+    <p class="google-review-card__text">${review.texto || "Avaliação indisponível."}</p>
+    ${link}
+  `;
+
+  return card;
+};
+
+const initGoogleReviews = async () => {
+  if (!reviewsTrack) return;
+
+  try {
+    const response = await fetch("./avaliacoes-google.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar avaliações (${response.status})`);
+    }
+
+    const reviews = await response.json();
+    reviewsTrack.innerHTML = "";
+
+    reviews.forEach((review) => {
+      reviewsTrack.appendChild(createReviewCard(review));
+    });
+
+    initReveal();
+  } catch (error) {
+    reviewsTrack.innerHTML = `<p class="google-review-card__text">Não foi possível carregar as avaliações agora.</p>`;
+  }
+
+  const slide = () => Math.max(reviewsTrack.clientWidth * 0.82, 280);
+
+  reviewsPrev?.addEventListener("click", () => {
+    reviewsTrack.scrollBy({ left: -slide(), behavior: "smooth" });
+  });
+
+  reviewsNext?.addEventListener("click", () => {
+    reviewsTrack.scrollBy({ left: slide(), behavior: "smooth" });
+  });
+};
+
 initPortfolio();
 initReveal();
+initGoogleReviews();
