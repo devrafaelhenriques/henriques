@@ -34,8 +34,8 @@ const portfolioItems = [
     description: "Sistema para gerir o estoque de clinicas com financeiro incluso, gerando uma velocidade muito maior nos processos.",
     details: "Arquitetura de informação, programação web, web design.",
     meta: "Cliente: -- • Entrega: site + dashboard",
-    mediaUrl: "./img/logo-n2.png",
-    projectUrl: "https://grupohenriques.com.br"
+    mediaUrl: "./img/portfolio/GH-003.jpg",
+    projectUrl: "https://www.behance.net/gallery/243595071/Sistema-de-Gestao-de-Estoque-com-Financeiro?platform=direct"
   },
   {
     id: 4,
@@ -43,10 +43,12 @@ const portfolioItems = [
     categoryLabel: "Marcas & Campanhas",
     type: "foto",
     typeLabel: "Campanha",
-    title: "Lançamento de Marca com Campanha 360º",
-    description: "Identidade visual, peças digitais e plano de conteúdo coordenado.",
-    details: "Estratégia de entrada no mercado com criativos para awareness e performance em mídia paga.",
-    meta: "Cliente: Nexo Tech • Entrega: branding + campanha"
+    title: "Folder Institucional - ISO 9001 – Clínica de Olhos São José",
+    description: "Criação de folder institucional com foco em clareza, credibilidade e posicionamento profissional na área da saúde.",
+    details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da clínica.",
+    meta: "Cliente: Clínica de Olhos São José • Entrega: material pronto para impressão e uso digital"
+    mediaUrl: "./img/portfolio/GH-004.png",
+    projectUrl: "https://www.behance.net/gallery/239181355/Folder-Semana-da-Qualidade-Clinica-de-Olhos-Sao-Jos"
   },
   {
     id: 5,
@@ -67,10 +69,11 @@ const portfolioItems = [
     categoryLabel: "Vídeos",
     type: "video",
     typeLabel: "Audiovisual",
-    title: "Série de Reels para Conversão",
-    description: "Pacote audiovisual com foco em retenção, prova social e chamadas para ação.",
-    details: "Roteiros curtos, filmagem vertical e edição otimizada para plataformas sociais.",
-    meta: "Cliente: Clínica Vitta • Entrega: 20 vídeos"
+    title: "Vídeo Institucional Nyldora",
+    description: "Filme institucional com foco em conversão.",
+    details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
+    meta: "Cliente: Nyldora Beauty • Entrega: vídeo institucional",
+    projectUrl: "https://www.behance.net/gallery/243163421/Video-Institucional-Nyldora-Beauty-AraranguaSC"
   }
 ];
 
