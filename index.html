@@ -21,6 +21,7 @@
       <div class="nav-links">
         <a href="#posicionamento">Posicionamento</a>
         <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Portfólio</a>
         <a href="#diferenciais">Diferenciais</a>
       </div>
       <a class="nav-cta" href="https://api.whatsapp.com/send?phone=5548988430119&text=Ol%C3%A1,%20eu%20quero%20um%20projeto%20com%20a%20Henriques" target="_blank" rel="noreferrer">Quero um projeto</a>
@@ -121,6 +122,24 @@
       </div>
     </section>
 
+
+    <section class="section portfolio" id="portfolio">
+      <div class="section-header" data-reveal>
+        <h2>Portfólio de alto impacto</h2>
+        <p>Fotografia, vídeo, sites e projetos digitais que comprovam autoridade visual e resultado.</p>
+      </div>
+
+      <div class="portfolio-filters" data-reveal id="portfolio-filters">
+        <button class="filter-btn active" data-filter="todos" type="button">Todos</button>
+        <button class="filter-btn" data-filter="ensaios" type="button">Ensaios Fotográficos</button>
+        <button class="filter-btn" data-filter="videos" type="button">Vídeos</button>
+        <button class="filter-btn" data-filter="sites" type="button">Sites & Sistemas</button>
+        <button class="filter-btn" data-filter="marcas" type="button">Marcas & Campanhas</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid" aria-live="polite"></div>
+    </section>
+
     <section class="section differentials" id="diferenciais">
       <div class="section-header" data-reveal>
         <h2>Diferenciais que mudam o jogo</h2>
@@ -170,6 +189,19 @@
       </div>
     </div>
   </footer>
+
+
+  <div class="portfolio-modal" id="portfolio-modal" aria-hidden="true">
+    <div class="portfolio-modal__backdrop" data-close-modal></div>
+    <div class="portfolio-modal__content" role="dialog" aria-modal="true" aria-labelledby="portfolio-modal-title">
+      <button class="portfolio-modal__close" id="portfolio-modal-close" type="button" aria-label="Fechar modal">×</button>
+      <p class="portfolio-modal__type" id="portfolio-modal-type"></p>
+      <h3 id="portfolio-modal-title"></h3>
+      <p id="portfolio-modal-description"></p>
+      <p class="portfolio-modal__meta" id="portfolio-modal-meta"></p>
+      <a class="btn primary portfolio-modal__link" id="portfolio-modal-link" href="#" target="_blank" rel="noreferrer">Abrir projeto</a>
+    </div>
+  </div>
 
   <script src="./script.js"></script>
 </body>
