@@ -8,7 +8,9 @@ const portfolioItems = [
     title: "Editorial Premium para Marca de Moda",
     description: "Direção de arte e fotografia para reposicionamento de coleção com linguagem sofisticada.",
     details: "Produção completa com moodboard, direção criativa e pós-produção. Resultado: aumento de percepção premium e maior engajamento nos lançamentos.",
-    meta: "Cliente: Marca Aurora • Entrega: 48 fotos tratadas"
+    meta: "Cliente: Marca Aurora • Entrega: 48 fotos tratadas",
+    mediaUrl: "./img/fundo2.png",
+    projectUrl: "https://www.instagram.com/henriquesgrupo"
   },
   {
     id: 2,
@@ -19,7 +21,8 @@ const portfolioItems = [
     title: "Vídeo Manifesto de Posicionamento",
     description: "Filme institucional com foco emocional e roteiro para conversão.",
     details: "Captação em múltiplas locações, motion graphics e trilha licenciada para reforçar autoridade da marca.",
-    meta: "Cliente: Grupo Atria • Entrega: filme 90s + recortes"
+    meta: "Cliente: Grupo Atria • Entrega: filme 90s + recortes",
+    projectUrl: "https://www.youtube.com/"
   },
   {
     id: 3,
@@ -30,7 +33,9 @@ const portfolioItems = [
     title: "Plataforma Comercial de Alto Desempenho",
     description: "Website premium com estrutura orientada a leads e performance.",
     details: "Arquitetura de informação, copy estratégica e otimização técnica para velocidade e SEO local.",
-    meta: "Cliente: Prime Consultoria • Entrega: site + dashboard"
+    meta: "Cliente: Prime Consultoria • Entrega: site + dashboard",
+    mediaUrl: "./img/logo2.png",
+    projectUrl: "https://example.com"
   },
   {
     id: 4,
@@ -75,11 +80,20 @@ const modalType = document.getElementById("portfolio-modal-type");
 const modalTitle = document.getElementById("portfolio-modal-title");
 const modalDescription = document.getElementById("portfolio-modal-description");
 const modalMeta = document.getElementById("portfolio-modal-meta");
+const modalLink = document.getElementById("portfolio-modal-link");
 
 const mediaTagByType = {
   foto: "FOTO",
   video: "VÍDEO",
   site: "SITE"
+};
+
+const cardMedia = (item) => {
+  if (item.mediaUrl) {
+    return `<img src="${item.mediaUrl}" alt="${item.title}" class="portfolio-card__thumb">`;
+  }
+
+  return mediaTagByType[item.type] || "PROJETO";
 };
 
 const renderPortfolio = (filter = "todos") => {
@@ -94,7 +108,7 @@ const renderPortfolio = (filter = "todos") => {
     .map(
       (item) => `
       <article class="portfolio-card" data-id="${item.id}" data-type="${item.type}" data-reveal>
-        <div class="portfolio-card__media">${mediaTagByType[item.type]}</div>
+        <div class="portfolio-card__media">${cardMedia(item)}</div>
         <div class="portfolio-card__body">
           <p class="portfolio-card__category">${item.categoryLabel}</p>
           <h3 class="portfolio-card__title">${item.title}</h3>
@@ -114,6 +128,15 @@ const openModal = (item) => {
   modalTitle.textContent = item.title;
   modalDescription.textContent = item.details;
   modalMeta.textContent = item.meta;
+
+  if (item.projectUrl) {
+    modalLink.href = item.projectUrl;
+    modalLink.style.display = "inline-flex";
+  } else {
+    modalLink.removeAttribute("href");
+    modalLink.style.display = "none";
+  }
+
   modal.classList.add("is-open");
   modal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
