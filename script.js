@@ -85,6 +85,19 @@ const portfolioItems = [
     meta: "Cliente: Clínica de Olhos São José • Veiculação: campanha sazonal de Natal",
     mediaUrl: "./img/portfolio/GH-006.png",
     projectUrl: "https://www.behance.net/gallery/241584079/Outdoor-Campanha-de-Natal-Clinica-de-Olhos-Sao-Jos"
+  },
+  {
+    id: 8,
+    category: "ensaios",
+    categoryLabel: "Ensaios Fotográficos",
+    type: "foto",
+    typeLabel: "Fotografia",
+    title: "Fotos - JISC 2025",
+    description: "Cobertura fotográfica de evento acadêmico com foco em registros institucionais, interação e momentos-chave.",
+    details: "Produção fotográfica completa durante o evento, valorizando palestras, networking e a experiência do público, com edição profissional para uso institucional e divulgação.",
+    meta: "Evento: JISC 2025 • Entrega: galeria completa em alta resolução",
+    mediaUrl: "./img/portfolio/GH-008.png",
+    projectUrl: "https://www.behance.net/gallery/239219153/Fotografia-e-Edicao-JISC-2025"
   }
 ];
 
