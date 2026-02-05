@@ -72,6 +72,19 @@ const portfolioItems = [
     details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
     meta: "Cliente: Nyldora Beauty • Entrega: vídeo institucional",
     projectUrl: "https://www.behance.net/gallery/243163421/Video-Institucional-Nyldora-Beauty-AraranguaSC"
+  },
+  {
+    id: 7,
+    category: "marcas",
+    categoryLabel: "Marcas & Campanhas",
+    type: "foto",
+    typeLabel: "Campanha",
+    title: "Outdoor – Campanha de Natal",
+    description: "Criação de outdoor para campanha de Natal com foco em impacto visual, mensagem direta e alto poder de atenção.",
+    details: "Desenvolvimento do conceito criativo e do design do material, pensado para leitura rápida, forte presença visual e conexão emocional com o público.",
+    meta: "Cliente: Clínica de Olhos São José • Veiculação: campanha sazonal de Natal",
+    mediaUrl: "./img/portfolio/GH-006.png",
+    projectUrl: "https://www.behance.net/gallery/241584079/Outdoor-Campanha-de-Natal-Clinica-de-Olhos-Sao-Jos"
   }
 ];
 
