@@ -637,3 +637,103 @@ img {
 .portfolio-modal__link {
   margin-top: 18px;
 }
+
+.google-reviews {
+  background: #0f0f16;
+}
+
+.google-reviews__controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.google-reviews__arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: var(--panel);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.google-reviews__arrow:hover {
+  border-color: var(--accent);
+  color: var(--accent-bright);
+  transform: translateY(-2px);
+}
+
+.google-reviews__track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(280px, 360px);
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+
+.google-reviews__track::-webkit-scrollbar {
+  height: 8px;
+}
+
+.google-reviews__track::-webkit-scrollbar-thumb {
+  background: rgba(229, 108, 47, 0.45);
+  border-radius: 99px;
+}
+
+.google-review-card {
+  scroll-snap-align: start;
+  background: linear-gradient(145deg, rgba(229, 108, 47, 0.16), rgba(20, 20, 27, 0.95));
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  padding: 22px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.google-review-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(229, 108, 47, 0.5);
+}
+
+.google-review-card__name {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.google-review-card__stars {
+  color: #ffb547;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.google-review-card__text {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.google-review-card__link {
+  margin-top: 14px;
+  display: inline-flex;
+  font-size: 0.85rem;
+  color: var(--accent-bright);
+  font-weight: 600;
+}
+
+.google-reviews__cta {
+  margin-top: 28px;
+}
+
+@media (max-width: 640px) {
+  .google-reviews__controls {
+    justify-content: flex-start;
+  }
+
+  .google-reviews__track {
+    grid-auto-columns: minmax(250px, 85vw);
+  }
+}
