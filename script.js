@@ -111,6 +111,19 @@ const portfolioItems = [
     meta: "Cliente: Rafael Henriques • Entrega: site",
     mediaUrl: "./img/portfolio/GH-009.png",
     projectUrl: "https://www.behance.net/gallery/243661643/Rafael-Henriques-Personal-Digital-Hub?platform=direct"
+  },
+  {
+    id: 10,
+    category: "marcas",
+    categoryLabel: "Marcas & Campanhas",
+    type: "foto",
+    typeLabel: "Campanha",
+    title: "Artes para Campanha de Volta as Aulas - Atlética Cavalo de Troia",
+    description: "Criação de artes para posts de volta as aulas da Atlética Cavalo de Troia. Apresentação da diretoria e procurando calouros.",
+    details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da atlética.",
+    meta: "Cliente: Associação Atlética Acadêmica Cavalo de Troia • Entrega: material de uso digital",
+    mediaUrl: "./img/portfolio/GH-010.png",
+    projectUrl: "https://www.behance.net/gallery/243587261/Post-para-Instagram-Cavalo-de-Troia"
   }
 ];
 
