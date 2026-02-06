@@ -98,6 +98,19 @@ const portfolioItems = [
     meta: "Evento: JISC 2025 • Entrega: galeria completa em alta resolução",
     mediaUrl: "./img/portfolio/GH-008.png",
     projectUrl: "https://www.behance.net/gallery/239219153/Fotografia-e-Edicao-JISC-2025"
+  },
+  {
+    id: 9,
+    category: "sites",
+    categoryLabel: "Sites & Sistemas",
+    type: "sites",
+    typeLabel: "Sites",
+    title: "Site de Links Rápidos",
+    description: "Infraestrutura proprietária para gestão de imagem e conectividade entre lideranças acadêmicas e empresariais.",
+    details: "Arquitetura de informação, programação web, web design, links rápidos",
+    meta: "Cliente: Rafael Henriques • Entrega: site",
+    mediaUrl: "./img/portfolio/GH-009.png",
+    projectUrl: "https://www.behance.net/gallery/243661643/Rafael-Henriques-Personal-Digital-Hub?platform=direct"
   }
 ];
 
