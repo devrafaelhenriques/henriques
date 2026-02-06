@@ -47,6 +47,7 @@ const portfolioItems = [
     description: "Criação de folder institucional com foco em clareza, credibilidade e posicionamento profissional na área da saúde.",
     details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da clínica.",
     meta: "Cliente: Clínica de Olhos São José • Entrega: material pronto para impressão e uso digital",
+    mediaUrl: "./img/portfolio/GH-011.png",
     projectUrl: "https://www.behance.net/gallery/239181355/Folder-Semana-da-Qualidade-Clinica-de-Olhos-Sao-Jos"
   },
   {
@@ -59,6 +60,7 @@ const portfolioItems = [
     description: "Registro fotográfico e audiovisual de Chá de Fralda com narrativa leve e afetiva.",
     details: "Cobertura completa com atenção aos momentos-chave, interação entre convidados e entrega otimizada para redes sociais.",
     meta: "Cliente: Evento Particular • Entrega: todas as fotos tratadas em alta resolução",
+    mediaUrl: "./img/portfolio/GH-012.png",
     projectUrl: "https://www.behance.net/gallery/243140043/Fotografia-e-Edicao-Cha-de-Fralda-Maria-Eduarda"
   },
   {
