@@ -8,7 +8,7 @@ const portfolioItems = [
     title: "Janta de Formatura",
     description: "Cobertura fotográfica de evento com foco em emoção, detalhes e registros espontâneos.",
     details: "Captação completa do evento com olhar documental e edição profissional, garantindo memórias autênticas e imagens prontas para compartilhamento.",
-    meta: "Cliente: Evento Particular • Entrega: galeria completa em alta resolução",
+    meta: "Cliente: Evento Particular • Entrega: Galeria completa em alta resolução",
     mediaUrl: "./img/portfolio/GH-002.jpg",
     projectUrl: "https://www.behance.net/gallery/241582827/Fotografia-de-Janta-de-Formatura-Terceirao-261225"
   },
@@ -21,7 +21,7 @@ const portfolioItems = [
     title: "Vídeo Institucional Avatim",
     description: "Filme institucional com foco em conversão.",
     details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
-    meta: "Cliente: Avatim Araranguá • Entrega: vídeo institucional",
+    meta: "Cliente: Avatim Araranguá • Entrega: Vídeo institucional",
     projectUrl: "https://www.behance.net/gallery/243147295/Video-Institucional-para-a-Avatim-AraranguaSC"
   },
   {
@@ -33,7 +33,7 @@ const portfolioItems = [
     title: "Sistema de Gestão de Estoque com Financeiro",
     description: "Sistema para gerir o estoque de clinicas com financeiro incluso, gerando uma velocidade muito maior nos processos.",
     details: "Arquitetura de informação, programação web, web design.",
-    meta: "Cliente: -- • Entrega: site + dashboard",
+    meta: "Cliente: -- • Entrega: Site + Dashboard",
     mediaUrl: "./img/portfolio/GH-003.png",
     projectUrl: "https://www.behance.net/gallery/243595071/Sistema-de-Gestao-de-Estoque-com-Financeiro?platform=direct"
   },
@@ -46,7 +46,7 @@ const portfolioItems = [
     title: "Folder Institucional - ISO 9001 – Clínica de Olhos São José",
     description: "Criação de folder institucional com foco em clareza, credibilidade e posicionamento profissional na área da saúde.",
     details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da clínica.",
-    meta: "Cliente: Clínica de Olhos São José • Entrega: material pronto para impressão e uso digital",
+    meta: "Cliente: Clínica de Olhos São José • Entrega: Material pronto para impressão e uso digital",
     mediaUrl: "./img/portfolio/GH-011.png",
     projectUrl: "https://www.behance.net/gallery/239181355/Folder-Semana-da-Qualidade-Clinica-de-Olhos-Sao-Jos"
   },
@@ -59,7 +59,7 @@ const portfolioItems = [
     title: "Chá de Fralda",
     description: "Registro fotográfico e audiovisual de Chá de Fralda com narrativa leve e afetiva.",
     details: "Cobertura completa com atenção aos momentos-chave, interação entre convidados e entrega otimizada para redes sociais.",
-    meta: "Cliente: Evento Particular • Entrega: todas as fotos tratadas em alta resolução",
+    meta: "Cliente: Evento Particular • Entrega: Todas as fotos tratadas em alta resolução",
     mediaUrl: "./img/portfolio/GH-012.png",
     projectUrl: "https://www.behance.net/gallery/243140043/Fotografia-e-Edicao-Cha-de-Fralda-Maria-Eduarda"
   },
@@ -72,7 +72,7 @@ const portfolioItems = [
     title: "Vídeo Institucional Nyldora",
     description: "Filme institucional com foco em conversão.",
     details: "Captação de múltiplos produtos e da loja para reforçar autoridade da marca.",
-    meta: "Cliente: Nyldora Beauty • Entrega: vídeo institucional",
+    meta: "Cliente: Nyldora Beauty • Entrega: Vídeo institucional",
     projectUrl: "https://www.behance.net/gallery/243163421/Video-Institucional-Nyldora-Beauty-AraranguaSC"
   },
   {
@@ -84,7 +84,7 @@ const portfolioItems = [
     title: "Outdoor – Campanha de Natal",
     description: "Criação de outdoor para campanha de Natal com foco em impacto visual, mensagem direta e alto poder de atenção.",
     details: "Desenvolvimento do conceito criativo e do design do material, pensado para leitura rápida, forte presença visual e conexão emocional com o público.",
-    meta: "Cliente: Clínica de Olhos São José • Veiculação: campanha sazonal de Natal",
+    meta: "Cliente: Clínica de Olhos São José • Veiculação: Campanha sazonal de Natal",
     mediaUrl: "./img/portfolio/GH-006.png",
     projectUrl: "https://www.behance.net/gallery/241584079/Outdoor-Campanha-de-Natal-Clinica-de-Olhos-Sao-Jos"
   },
@@ -97,7 +97,7 @@ const portfolioItems = [
     title: "Fotos - JISC 2025",
     description: "Cobertura fotográfica de evento acadêmico com foco em registros institucionais, interação e momentos-chave.",
     details: "Produção fotográfica completa durante o evento, valorizando palestras, networking e a experiência do público, com edição profissional para uso institucional e divulgação.",
-    meta: "Evento: JISC 2025 • Entrega: galeria completa em alta resolução",
+    meta: "Evento: JISC 2025 • Entrega: Galeria completa em alta resolução",
     mediaUrl: "./img/portfolio/GH-008.png",
     projectUrl: "https://www.behance.net/gallery/239219153/Fotografia-e-Edicao-JISC-2025"
   },
@@ -110,7 +110,7 @@ const portfolioItems = [
     title: "Site de Links Rápidos",
     description: "Infraestrutura proprietária para gestão de imagem e conectividade entre lideranças acadêmicas e empresariais.",
     details: "Arquitetura de informação, programação web, web design, links rápidos",
-    meta: "Cliente: Rafael Henriques • Entrega: site",
+    meta: "Cliente: Rafael Henriques • Entrega: Site",
     mediaUrl: "./img/portfolio/GH-009.png",
     projectUrl: "https://www.behance.net/gallery/243661643/Rafael-Henriques-Personal-Digital-Hub?platform=direct"
   },
@@ -123,9 +123,22 @@ const portfolioItems = [
     title: "Artes para Campanha de Volta as Aulas - Atlética Cavalo de Troia",
     description: "Criação de artes para posts de volta as aulas da Atlética Cavalo de Troia. Apresentação da diretoria e procurando calouros.",
     details: "Desenvolvimento completo do material, desde a organização das informações até o design visual, garantindo comunicação objetiva, estética limpa e alinhada à identidade da atlética.",
-    meta: "Cliente: Associação Atlética Acadêmica Cavalo de Troia • Entrega: material de uso digital",
+    meta: "Cliente: Associação Atlética Acadêmica Cavalo de Troia • Entrega: Material de uso digital",
     mediaUrl: "./img/portfolio/GH-010.png",
     projectUrl: "https://www.behance.net/gallery/243587261/Post-para-Instagram-Cavalo-de-Troia"
+  },
+  {
+    id: 11,
+    category: "marcas",
+    categoryLabel: "Marcas & Campanhas",
+    type: "foto",
+    typeLabel: "Campanha",
+    title: "Outdoor – Clínica de Olhos São José",
+    description: "Criação de outdoor para a Clínica de Olhos São José com foco em impacto visual, mensagem direta e alto poder de atenção.",
+    details: "Desenvolvimento do conceito criativo e do design do material, pensado para leitura rápida, forte presença visual e conexão emocional com o público.",
+    meta: "Cliente: Clínica de Olhos São José • Veiculação: Campanha de Marketing",
+    mediaUrl: "./img/portfolio/GH-013.png",
+    projectUrl: "https://www.behance.net/gallery/248147731/Outdoor-Clinica-de-Olhos-Sao-Jos"
   }
 ];
 
